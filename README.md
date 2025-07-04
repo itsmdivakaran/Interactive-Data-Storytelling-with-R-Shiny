@@ -58,6 +58,8 @@ usethis::use_git_config(user.name="xxxxxxxx", user.email="xxxxxxx@example.org")
 #### Create a personal access token for GitHub
 usethis::create_github_token()
 
+Now you are set with Git
+
 ---
 
 ### 🗓 Workshop Outline
