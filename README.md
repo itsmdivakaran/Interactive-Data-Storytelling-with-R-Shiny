@@ -46,6 +46,18 @@ install.packages(c(
 
 These packages are essential for creating interactive dashboards, custom UI components, dynamic tables, and plots.
 
+
+# Github Config
+
+- Create an account or login to github.com
+- Clone the repo "https://tinyurl.com/stpala"
+
+#### This script sets up a new R package project with Git and GitHub integration.
+usethis::use_git_config(user.name="xxxxxxxx", user.email="xxxxxxx@example.org")
+
+#### Create a personal access token for GitHub
+usethis::create_github_token()
+
 ---
 
 ### 🗓 Workshop Outline
