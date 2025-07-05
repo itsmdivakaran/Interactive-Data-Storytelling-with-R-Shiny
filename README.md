@@ -79,4 +79,7 @@ Now you are set with Git
 - Deploying Shiny Applications using shinyapps.io or other platforms
 
 ---
+## Resources
 
+- https://css-generator.netlify.app
+- https://mastering-shiny.org/index.html
