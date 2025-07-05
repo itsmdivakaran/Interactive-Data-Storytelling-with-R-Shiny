@@ -1,0 +1,94 @@
+/* Body */
+body {
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #f0f4f8, #e6ecf0);
+  color: #2c3e50;
+  margin: 0;
+  padding: 0;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+/* Cards */
+.card {
+  padding: 20px;
+  border-radius: 16px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  font-size: 1.3em;
+  margin-bottom: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-blue {
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  color: white;
+}
+
+.card-green {
+  background: linear-gradient(135deg, #43e97b, #38f9d7);
+  color: white;
+}
+
+.card-yellow {
+  background: linear-gradient(135deg, #f6d365, #fda085);
+  color: #2c3e50;
+}
+
+/* Sidebar */
+#sidebar {
+  background: linear-gradient(to bottom, #2c3e50, #34495e);
+  padding: 20px;
+  color: #ecf0f1;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+#sidebar .form-group label,
+#sidebar select,
+#sidebar .selectize-input {
+  color: #ecf0f1;
+}
+
+#sidebar .form-control,
+#sidebar .selectize-input {
+  background-color: #3c5977;
+  border: none;
+  color: #ecf0f1;
+  font-weight: 500;
+}
+
+#sidebar .form-control:focus,
+#sidebar .selectize-input.focus {
+  background-color: #46698f;
+  color: #ffffff;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #2980b9;
+  border-color: #2980b9;
+}
+.btn-primary:hover {
+  background-color: #3498db;
+  border-color: #3498db;
+}
+
+/* Tabs */
+.nav-tabs > li > a {
+  color: #2c3e50;
+  font-weight: bold;
+}
+.nav-tabs > li.active > a {
+  background-color: #ecf0f1 !important;
+  color: #2980b9 !important;
+  border-top: 3px solid #2980b9;
+}
